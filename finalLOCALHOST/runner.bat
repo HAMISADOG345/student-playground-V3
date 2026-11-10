@@ -1,6 +1,6 @@
 @echo off
 
-java --enable-native-access=ALL-UNNAMED -cp . runDLL localhost.dll LOCALHOST
-java --enable-native-access=ALL-UNNAMED -cp . runDLL libuntitled8.dll Start
+java -jar runDLL.jar localhost.dll LOCALHOST
+java -jar runDLL.jar libuntitled8.dll Start
 
 pause
